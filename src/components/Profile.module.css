@@ -1,0 +1,119 @@
+.container {
+  margin: 0 12rem;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+.left-container {
+  background-color: #e6e6e6;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 5rem;
+  color: #5d5d5d;
+}
+
+.left-container img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+.left-container h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.left-container h4 {
+  padding: -1px;
+}
+
+.left-container span {
+  color: #888886;
+}
+.barContainer {
+  height: 15px;
+  background-color: #ffff;
+}
+
+.about-me,
+.user-name {
+  margin: 1.5rem 0;
+}
+.about-me h3 {
+  padding: -1px;
+  margin: 10px 0;
+}
+.user-name h2 {
+  padding: -1px;
+  margin: -20px 0;
+}
+.skills {
+  margin: 2rem 0;
+}
+.skills h4 {
+  padding: -1px;
+  margin: 10px 0;
+}
+
+
+.right-container {
+  width: 400px;
+  padding: 1rem 2rem;
+  color: #5d5d5d;
+  resize: none;
+}
+
+.right-container h3 {
+  padding: -1px;
+  margin-top: 2rem;
+  margin-bottom: -5px;
+}
+.helper {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+.helper h5, span {
+  padding: -1px;
+  margin-bottom: 5px;
+}
+
+.circleBar {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.circle-bar {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  margin-top: 10px;
+  padding-right: 12px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .container {
+    flex-direction: column;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .left-container {
+    width: 87%;
+    padding: 1rem 2rem;
+  }
+  .right-container {
+    width: 85%;
+  }
+  
+}

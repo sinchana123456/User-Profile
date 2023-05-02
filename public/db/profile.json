@@ -1,0 +1,56 @@
+[
+  {
+    "userName": "David Tokan",
+    "userProfilePic": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTvbkUEL2MwRL31Gj-CyBpXRGK8ule4HUlzCX0Rdq4wTQiBkLU4",
+    "userProfession": "MID ARCHITECT",
+    "aboutUser": "As for the memo's look, make sure the text is clear and easy-to-read. However, you can include your logo, company name, and a few relevant photos. Another idea is  to use your brand colors to create a memo that aligns with your overall mission.",
+    "userSkills": [
+      { "skill": "INTERIOR DESIGN", "value": 80 },
+      { "skill": "3D MODELING", "value": 90 },
+      { "skill": " PHOTOGRAPHY", "value": 70 }
+    ],
+    "userContact": {
+      "email": "hello@reallygreatsite.com",
+      "phone": "123-456-7890"
+    },
+    "userEducation": [
+      {
+        "course": "BACHELOR OF ARCHITECTURE",
+        "passOut": 2014,
+        "collage": "Marcelioneli Art Academy"
+      },
+      {
+        "course": "MASTERS OF ARCHITECTURE",
+        "passOut": 2018,
+        "collage": "Sami Institute of the Arts"
+      }
+    ],
+    "language": [
+      { "language": "English", "value": 90 },
+      { "language": "German", "value": 60 },
+      { "language": "Italian", "value": 20 }
+    ],
+    "experience": [
+      {
+        "name": "JUNIOR ASSISTANT",
+        "expExplain": "Worked on marketing campaigns. Handled multiple digital accounts. Created digital marketing campaigns. Assisted the head designer.",
+        "year": 2018
+      },
+      {
+        "name": "JUNIOR ARCHITECT",
+        "expExplain": "Worked on marketing campaigns. Handled multiple digital accounts. Created digital marketing campaigns. Assisted the head designer.",
+        "year": 2019
+      },
+      {
+        "name": "PROJECT MANAGER",
+        "expExplain": "Worked on marketing campaigns. Handled multiple digital accounts. Created digital marketing campaigns. Assisted the head designer.",
+        "year": 2020
+      },
+      {
+        "name": "MID LEVEL ARCHITECT",
+        "expExplain": "Worked on marketing campaigns. Handled multiple digital accounts. Created digital marketing campaigns. Assisted the head designer.",
+        "year": 2026
+      }
+    ]
+  }
+]
